@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="scripts.js"></script>
+        <title>Michael Septiadi</title>
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron">
+                <div id="slideshows">
+                    <img src="assets/jumbotron1.jpg" />
+                </div>
+                <div class="title">
+                    <h1>Michael Septiadi</h1>
+                    <p><i>Software Enthusiast | Front End Developer </i></p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#biodata">Biodata</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#article">Article</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <article id="biodata" class="card">
+                    <h2>Biodata</h2>
+                    <div class="details">
+                        <img src="assets/profil.jpeg" alt="Profile Photo" />
+                        <p>
+                            Michael Septiadi<br />
+                            Bekasi, 02 September 2001<br />
+                            Mahasiswa | Universitas Singaperbangsa Karawang<br />
+                            Front End Developer
+                        </p>
+                    </div>
+                </article>
+                <article id="skill" class="card">
+                    <h2>Skill</h2>
+                    <div class="card-container">
+                        <div class="card-list">
+                            <div class="item-card">
+                                <h3>HTML</h3>
+                            </div>
+                            <div class="item-card">
+                                <h3>CSS</h3>
+                            </div>
+                            <div class="item-card">
+                                <h3>JavaScript</h3>
+                            </div>
+                        </div>
+                        <div class="card-list">
+                            <div class="item-card">
+                                <h3>Python</h3>
+                            </div>
+                            <div class="item-card">
+                                <h3>Java</h3>
+                            </div>
+                            <div class="item-card">
+                                <h3>React</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article id="article" class="card">
+                    <h2>Article</h2>
+                    <section>
+                        <h3>Web Developer</h3>
+                        <p>
+                            Web developer adalah orang yang bertugas membuat dan mengembangkan
+                            website. Untuk melakukannya, mereka menulis kode dengan berbagai bahasa
+                            pemrograman web sesuai keahlian mereka. Contohnya, Python, JavaScript,
+                            dan HTML. Kode yang mereka tulis itulah yang menghasilkan sebuah website
+                            atau aplikasi, baik tampilan atau berbagai fitur di dalamnya. Jadi,
+                            kalau Anda melihat tombol menu, kotak pencarian, formulir, dan fitur
+                            lainnya di sebuah situs yang berfungsi dengan baik, ada peran web
+                            developer andal di belakangnya. Tentunya, tugas mereka tidak berhenti di
+                            tampilan dan fitur saja. Web developer juga bertanggung jawab atas
+                            performa website, database, dan hal-hal lain yang mendukung kinerja
+                            website. Developer yang baik akan mampu menghasilkan website yang mampu
+                            bekerja dengan optimal.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Front End</h3>
+                        <p>
+                            Pada dasarnya, front end adalah salah satu bagian dari website yang
+                            menampilkan tampilan pada para pengguna. Bagian ini dibuat dengan
+                            menggunakan HyperText Markup Language (HTML), Cascading Style Sheets
+                            (CSS), dan juga JavaScript. Sehingga, suatu URL bisa bekerja dan
+                            menampilkan situs website dengan baik. Berdasarkan laman Career Foundry,
+                            <span id="dots"> ...</span
+                            ><span id="more"
+                                >front end developer adalah mereka yang memiliki tanggung jawab
+                                dalam menghubungkan suatu situs website ataupun aplikasi dengan para
+                                penggunanya. Mereka akan membuat gambar, tombol, teks, dan juga menu
+                                serta interaksi antar setiap situs atau aplikasi dengan para
+                                pengguna. Oleh karena itu, mereka juga biasa dikenal dengan
+                                client-side. Front end adalah suatu hal yang tidak dibuat dengan
+                                merancang desain dari suatu situs ataupun aplikasi dari nol. Karena,
+                                pada dasarnya hal tersebut sudah dikerjakan oleh UI designer. Tugas
+                                front end adalah memindahkan desain yang dibuat oleh UI designer
+                                dalam bentuk yang lebih interaktif dan membuat desain tersebut
+                                menjadi lebih hidup. Nah, untuk membuat suatu situs website atau
+                                aplikasi, maka dibutuhkan juga seorang back end developer. Tugas
+                                mereka adalah memastikan semua hal yang dibuat oleh front end
+                                developer ataupun sistem dan server dibalik dibuatnya situs website
+                                atau aplikasi bisa bekerja sebagaimana mestinya. Mereka juga sering
+                                disebut dengan server-side.
+                            </span>
+                        </p>
+                        <button onClick="readMore()" id="btn">Read More</button>
+                    </section>
+                </article>
+
+                <article id="gallery" class="card">
+                    <h2>Gallery</h2>
+                    <div class="carousel-container">
+                        <div class="prev nav-btn" onclick="plusSlides(-1)"><</div>
+                        <div class="carousel">
+                            <div class="item main">
+                                <img src="assets/slider.jpg" alt="code" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/slider2.jpg" alt="code" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/slider3.jpg" alt="code" />
+                            </div>
+                        </div>
+                        <div class="next nav-btn" onclick="plusSlides(1)">></div>
+                    </div>
+                </article>
+            </div>
+
+            <aside>
+                <article id="kontak" class="card contact">
+                    <h2>Contact</h2>
+                    <img src="assets/profil.jpeg" alt="Profile Photo" class="profile" />
+                    <p>
+                        <b>Michael Septiadi</b><br />
+                        Software Enthusiast
+                    </p>
+                    <div class="icon">
+                        <img
+                            src="https://www.freepnglogos.com/uploads/email-png/email-logo-communications-brands-and-logotypes-gmail-14.png"
+                            width="25"
+                            style="margin-right: 10px"
+                            alt="email"
+                        />
+                        <a href="mailto: septiadimichael@gmail.com" target="_blank"
+                            >septiadimichael@gmail.com</a
+                        >
+                    </div>
+                    <div class="icon">
+                        <img
+                            src="https://www.freepnglogos.com/uploads/whatsapp-logo-app-png-4.png"
+                            width="25"
+                            style="margin-right: 10px"
+                            alt="whatsapp logo app png"
+                        />
+                        <a href="https://wa.me/0895372477784" target="_blank">0895372477784</a>
+                    </div>
+                </article>
+            </aside>
+        </main>
+
+        <footer>
+            <div class="footer-logo">
+                <div class="media">
+                    <a href="https://www.linkedin.com/in/michaelseptiadi/" target="_blank"
+                        ><img
+                            src="https://img.icons8.com/fluency/48/undefined/linkedin-circled.png"
+                            alt="Linkedin"
+                    /></a>
+                </div>
+                <div class="media">
+                    <a href="https://github.com/michaelseptiadi" target="_blank">
+                        <img
+                            src="https://img.icons8.com/ios-glyphs/48/undefined/github.png"
+                            alt="github"
+                        />
+                    </a>
+                </div>
+                <div class="media">
+                    <a href="https://www.instagram.com/michaelseptiadi_/" target="_blank">
+                        <img
+                            src="https://img.icons8.com/color/48/undefined/instagram-new--v1.png"
+                            alt="Instagram"
+                    /></a>
+                </div>
+            </div>
+            <p>Michael Septiadi &#169; 2022, Copyright</p>
+        </footer>
+    </body>
+</html>
